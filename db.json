@@ -1,0 +1,33 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Gustavo",
+      "idade": 35,
+      "telefone": "839999990453",
+      "email": "gustavo@gustavo.com.br"
+    },
+    {
+      "id": 2,
+      "nome": "Wagner",
+      "idade": 37,
+      "telefone": "83999998888",
+      "email": "wagner@wagner.com.br"
+    },
+    {
+      "id": "4",
+      "idade": "47",
+      "nome": "Fabricio",
+      "telefone": "8399995555",
+      "email": "fabricio@fabricio.com.br"
+    },
+    {
+      "id": "9",
+      "idade": "19",
+      "nome": "Ficticio",
+      "telefone": "83999997777",
+      "email": "ficticio@ficiticio.com.br"
+    }
+  ],
+  "mensagens": []
+}

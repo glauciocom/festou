@@ -5,6 +5,8 @@ import {NgMaterialModule} from "../ng-material/ng-material.module";
 import {FormsModule} from "@angular/forms";
 import {RouterModule} from "@angular/router";
 import {MatMenuModule} from "@angular/material/menu";
+import {MatListModule} from "@angular/material/list";
+
 
 @NgModule({
   declarations: [
@@ -15,10 +17,12 @@ import {MatMenuModule} from "@angular/material/menu";
     MatMenuModule,
     NgMaterialModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    MatListModule
   ],
   exports: [
-    MenuComponent
+    MenuComponent,
+    MatMenuModule
   ]
 })
 export class LayoutModule { }

@@ -3,7 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MenuComponent } from './layout/menu/menu.component';
+import { LayoutModule } from './layout/layout.module';
+import {NgMaterialModule} from "./ng-material/ng-material.module";
+import {ClienteModule} from "./cliente/cliente.module";
 
 @NgModule({
   declarations: [
@@ -12,7 +14,10 @@ import { MenuComponent } from './layout/menu/menu.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    LayoutModule,
+    NgMaterialModule,
+    ClienteModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

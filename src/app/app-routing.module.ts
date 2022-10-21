@@ -17,10 +17,6 @@ const routes: Routes = [
     path: "editacliente/:id",
     component: CadastroClienteComponent
   }
-  // {
-  //   path: "cadastrolistaclientes",
-  //   component: CadastroListagemComponent
-  // }
 
 ];
 

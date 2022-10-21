@@ -10,6 +10,10 @@ import {NgMaterialModule} from "../ng-material/ng-material.module";
   ],
   imports: [
     NgMaterialModule
+  ],
+  exports: [
+    CadastroClienteComponent,
+    ListagemClienteComponent
   ]
 })
 export class ClienteModule { }
